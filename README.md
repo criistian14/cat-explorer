@@ -62,9 +62,11 @@ Esta aplicación utiliza una variedad de librerías para mejorar su funcionalida
 
 Este proyecto utiliza tres flavors diferentes para distintas etapas del desarrollo y despliegue:
 
-development: Para el desarrollo local y pruebas iniciales.
-staging: Para pruebas de integración y validación antes del despliegue final.
-production: Para la versión final que se despliega a los usuarios finales.
+**development**: Para el desarrollo local y pruebas iniciales.
+
+**staging**: Para pruebas de integración y validación antes del despliegue final.
+
+**production**: Para la versión final que se despliega a los usuarios finales.
 
 ---
 
