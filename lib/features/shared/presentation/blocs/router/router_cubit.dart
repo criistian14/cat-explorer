@@ -1,7 +1,6 @@
 import 'package:animations/animations.dart';
 import 'package:bloc/bloc.dart';
-import 'package:cat_explorer/features/counter/counter.dart';
-import 'package:cat_explorer/features/shared/shared.dart';
+import 'package:cat_explorer/features/cats/cats.dart';
 import 'package:go_router/go_router.dart';
 
 part 'router_state.dart';

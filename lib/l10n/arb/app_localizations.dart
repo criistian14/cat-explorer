@@ -93,11 +93,41 @@ abstract class AppLocalizations {
     Locale('es')
   ];
 
-  /// Text shown in the AppBar of the Counter Page
+  /// No description provided for @title_cats.
   ///
   /// In en, this message translates to:
-  /// **'Counter Christian'**
-  String get counterAppBarTitle;
+  /// **'Find Your Ideal Cat Breed'**
+  String get title_cats;
+
+  /// No description provided for @search_hint_cats.
+  ///
+  /// In en, this message translates to:
+  /// **'What cat breed are you looking for?'**
+  String get search_hint_cats;
+
+  /// No description provided for @search_label_cats.
+  ///
+  /// In en, this message translates to:
+  /// **'Persian, Siamese, Bengal...'**
+  String get search_label_cats;
+
+  /// No description provided for @explore_cat_categories.
+  ///
+  /// In en, this message translates to:
+  /// **'Explore Different Cat Categories'**
+  String get explore_cat_categories;
+
+  /// No description provided for @cat_breed_list.
+  ///
+  /// In en, this message translates to:
+  /// **'List of Cat Breeds'**
+  String get cat_breed_list;
+
+  /// No description provided for @view_all.
+  ///
+  /// In en, this message translates to:
+  /// **'View All'**
+  String get view_all;
 }
 
 class _AppLocalizationsDelegate extends LocalizationsDelegate<AppLocalizations> {

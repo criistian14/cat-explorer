@@ -1,7 +1,9 @@
 {
     "@@locale": "en",
-    "counterAppBarTitle": "Counter Christian",
-    "@counterAppBarTitle": {
-        "description": "Text shown in the AppBar of the Counter Page"
-    }
+    "title_cats": "Find Your Ideal Cat Breed",
+    "search_hint_cats": "What cat breed are you looking for?",
+    "search_label_cats": "Persian, Siamese, Bengal...",
+    "explore_cat_categories": "Explore Different Cat Categories",
+    "cat_breed_list": "List of Cat Breeds",
+    "view_all": "View All"
 }

@@ -8,19 +8,21 @@ TextTheme lightTextTheme = const TextTheme(
     fontSize: 28,
     fontFamily: _fontFamily,
     fontWeight: FontWeight.w600,
-    height: 1.2,
+    height: 1.5,
     color: _defaultColor,
   ),
   displayMedium: TextStyle(
     fontSize: 24,
     fontFamily: _fontFamily,
     fontWeight: FontWeight.w600,
+    height: 1.5,
     color: _defaultColor,
   ),
   displaySmall: TextStyle(
     fontSize: 20,
     fontFamily: _fontFamily,
     fontWeight: FontWeight.w600,
+    height: 1.5,
     color: _defaultColor,
   ),
   headlineLarge: TextStyle(

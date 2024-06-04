@@ -1,7 +1,9 @@
 {
     "@@locale": "es",
-    "counterAppBarTitle": "Contador Christian",
-    "@counterAppBarTitle": {
-        "description": "Texto mostrado en la AppBar de la página del contador"
-    }
+    "title_cats": "Encuentra la raza de tu gato ideal",
+    "search_hint_cats": "¿Qué raza de gato buscas?",
+    "search_label_cats": "Persa, Siamés, Bengala...",
+    "explore_cat_categories": "Explora las diferentes categorías de gatos",
+    "cat_breed_list": "Lista de razas de gatos",
+    "view_all": "Ver todos"
 }
