@@ -39,10 +39,9 @@ Esta aplicación utiliza una variedad de librerías para mejorar su funcionalida
 - **dio**: Una potente librería de HTTP cliente para Dart, utilizada para realizar solicitudes a TheCatAPI.
 - **equatable**: Facilita las comparaciones de objetos, comúnmente utilizado con el patrón BLoC.
 - **flutter_animate**: Permite agregar animaciones fáciles y potentes a los widgets.
-- **flutter_gen**: Genera código Dart para recursos estáticos como imágenes, fuentes y traducciones.
+- **flutter_dotenv**: Permite cargar variables de entorno.
 - **get_it**: Un contenedor de dependencias simple para la inyección de dependencias.
 - **go_router**: Una solución de enrutamiento flexible y potente para Flutter.
-- **multiple_result**: Maneja resultados múltiples de operaciones, como éxito o error.
 
 ### Dependencias de Desarrollo
 
