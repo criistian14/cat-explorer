@@ -3,7 +3,7 @@ part of 'dark_theme.dart';
 const _fontFamily = 'Poppins';
 const _defaultColor = Color(0xFFFFFFFF);
 
-TextTheme darkTextTheme = const TextTheme(
+TextTheme _darkTextTheme = const TextTheme(
   displayLarge: TextStyle(
     fontSize: 28,
     fontFamily: _fontFamily,

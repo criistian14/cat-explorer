@@ -30,6 +30,7 @@ class BreedCard extends StatelessWidget {
         );
       },
       closedElevation: 0,
+      closedColor: Colors.transparent,
       closedBuilder: (context, openContainer) {
         return ShimmerLoading(
           isLoading: isLoading,
