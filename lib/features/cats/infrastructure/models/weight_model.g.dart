@@ -7,8 +7,8 @@ part of 'weight_model.dart';
 // **************************************************************************
 
 WeightModel _$WeightModelFromJson(Map json) => WeightModel(
-      imperial: json['imperial'] as String,
-      metric: json['metric'] as String,
+      imperial: json['imperial'] as String?,
+      metric: json['metric'] as String?,
     );
 
 Map<String, dynamic> _$WeightModelToJson(WeightModel instance) =>

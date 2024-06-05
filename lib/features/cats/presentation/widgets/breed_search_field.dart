@@ -5,8 +5,8 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 
-class CatSearchField extends StatelessWidget {
-  const CatSearchField({super.key});
+class BreedSearchField extends StatelessWidget {
+  const BreedSearchField({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -22,7 +22,7 @@ class CatSearchField extends StatelessWidget {
       child: GestureDetector(
         onTap: () => showSearch(
           context: context,
-          delegate: CatSearchDelegate(context),
+          delegate: BreedSearchDelegate(context),
         ),
         child: Container(
           padding: EdgeInsets.symmetric(

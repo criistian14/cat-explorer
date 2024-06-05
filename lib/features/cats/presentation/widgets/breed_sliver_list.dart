@@ -2,8 +2,15 @@ import 'package:cat_explorer/features/cats/cats.dart';
 import 'package:cat_explorer/features/shared/shared.dart';
 import 'package:flutter/material.dart';
 
-class CatSliverList extends StatelessWidget {
-  const CatSliverList({super.key});
+class BreedSliverList extends StatelessWidget {
+  const BreedSliverList({
+    super.key,
+    required this.isLoading,
+    this.breeds = const [],
+  });
+
+  final bool isLoading;
+  final List<Breed> breeds;
 
   @override
   Widget build(BuildContext context) {
@@ -12,7 +19,6 @@ class CatSliverList extends StatelessWidget {
         horizontal: 5.w(context),
         vertical: 2.h(context),
       ),
-      // sliver: SliverGrid.builder(
       sliver: SliverGrid.builder(
         gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
           crossAxisCount: 2,
@@ -20,8 +26,14 @@ class CatSliverList extends StatelessWidget {
           mainAxisSpacing: 2.h(context),
           crossAxisSpacing: 4.w(context),
         ),
-        itemCount: 10,
-        itemBuilder: (context, index) => const CatCard(),
+        itemCount: isLoading ? 6 : breeds.length,
+        itemBuilder: (context, index) => BreedCard(
+          key: breeds.isNotEmpty
+              ? Key(breeds[index].name.toString())
+              : Key(index.toString()),
+          isLoading: isLoading,
+          breed: breeds.isNotEmpty ? breeds[index] : null,
+        ),
       ),
     );
   }

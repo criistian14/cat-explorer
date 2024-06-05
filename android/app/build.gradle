@@ -31,7 +31,7 @@ if (keystorePropertiesFile.exists()) {
 android {
     namespace "com.christian.cat_explorer"
     compileSdk 34
-    ndkVersion flutter.ndkVersion
+    ndkVersion "25.1.8937393"
 
     kotlinOptions {
         jvmTarget = '11'
