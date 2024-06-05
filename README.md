@@ -16,11 +16,13 @@ Bienvenido a **Cat Explorer**, una aplicación de Flutter que consulta datos sob
 
 El diseño de la aplicación está inspirado en [Cat Shop Mobile App][design_link] de Dribbble.
 
+![presentation]
+
 ---
 
 ## Funcionalidades
 
-- **Consulta de datos de gatos**: Utiliza TheCatAPI para obtener información sobre diferentes razas de gatos, imágenes y más.
+- **Consulta la raze de los gatos**: Utiliza TheCatAPI para obtener información sobre diferentes razas de gatos, imágenes y más.
 - **Interfaz amigable**: Un diseño limpio y moderno que facilita la navegación y la visualización de la información.
 - **Gestión de estado**: Implementación de Flutter Bloc para un manejo eficiente del estado de la aplicación.
 - **Automatización con GitHub Actions**: Validación de pruebas unitarias, análisis de código y creación de releases utilizando GitHub Actions para garantizar la calidad del código y la integración continua.
@@ -103,4 +105,4 @@ Este proyecto utiliza tres flavors diferentes para distintas etapas del desarrol
 [very_good_analysis_link]: https://pub.dev/packages/very_good_analysis
 [very_good_cli_link]: https://github.com/VeryGoodOpenSource/very_good_cli
 [design_link]: https://dribbble.com/shots/24105513-Cat-Shop-Mobile-App
-
+[presentation]: https://github.com/criistian14/cat-explorer/blob/main/screenshots/preview/android-presentation.png
