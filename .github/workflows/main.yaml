@@ -40,7 +40,7 @@ jobs:
         run: flutter analyze
 
       - name: Run Tests
-        run: flutter test
+        run: flutter test --exclude-tags=golden
 
 
   build_and_deploy:

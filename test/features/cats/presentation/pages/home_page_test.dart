@@ -50,9 +50,7 @@ void main() {
   });
 
   testGoldens(
-    // testWidgets(
     'Should render successful Home Page with Breeds',
-    // tags: 'golden',
     (tester) async {
       final jsonMap = jsonDecode(readFile('breeds.json'));
       final tBreeds = (jsonMap as List)
@@ -87,9 +85,6 @@ void main() {
             BlocProvider(
               create: (context) => sl<SearchBloc>(),
             ),
-            BlocProvider(
-              create: (context) => sl<HomeBloc>(),
-            ),
           ],
           child: Builder(
             builder: (_) {
@@ -98,7 +93,6 @@ void main() {
           ),
         ),
       );
-      // await tester.pumpAndSettle(const Duration(milliseconds: 800));
 
       await multiScreenGolden(tester, 'home_page');
     },
