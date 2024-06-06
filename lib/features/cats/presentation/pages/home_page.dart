@@ -60,6 +60,7 @@ class HomePage extends StatelessWidget {
             buildWhen: (previous, current) => previous.status != current.status,
             builder: (context, state) {
               Widget child = const Shimmer(child: HomeView());
+              if (sl.isTestMode) child = const HomeView();
 
               if (state.status == HomeStatus.failure) {
                 child = ErrorInfo(

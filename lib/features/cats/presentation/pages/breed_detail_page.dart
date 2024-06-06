@@ -1,7 +1,5 @@
 import 'dart:ui';
 
-import 'package:cached_network_image/cached_network_image.dart';
-import 'package:cat_explorer/config/app_assets.dart';
 import 'package:cat_explorer/features/cats/cats.dart';
 import 'package:cat_explorer/features/shared/shared.dart';
 import 'package:cat_explorer/injection/injection_container.dart';
@@ -40,14 +38,9 @@ class BreedDetailPage extends StatelessWidget {
                         borderRadius: const BorderRadius.vertical(
                           bottom: Radius.circular(20),
                         ),
-                        child: CachedNetworkImage(
+                        child: ImageNetwork(
                           imageUrl: breed.image?.url ??
                               'https://cdn2.thecatapi.com/images/0XYvRd7oD.jpg',
-                          errorWidget: (context, url, error) => Image.asset(
-                            AppAssets.imageErrorCat,
-                            fit: BoxFit.cover,
-                          ),
-                          fit: BoxFit.cover,
                         ),
                       ),
                     ),

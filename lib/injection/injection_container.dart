@@ -9,7 +9,15 @@ part 'shared_injection.dart';
 
 final sl = GetIt.instance;
 
+const nameTestMode = 'isTestMode';
+
 Future<void> init() async {
   await initSharedInjection();
   await initCatsInjection();
+}
+
+extension GetItExt on GetIt {
+  bool get isTestMode {
+    return sl.isRegistered<bool>(instanceName: nameTestMode);
+  }
 }

@@ -47,7 +47,8 @@ class HomeBloc extends Bloc<HomeEvent, HomeState> {
 
     final breeds = response.getSuccessValue();
 
-    final responseCategories = await _getBreedCategoriesUseCase(breeds);
+    final responseCategories =
+        await _getBreedCategoriesUseCase(const NoParams());
     if (responseCategories.isFailure) {
       final error = response.getException();
       emit(

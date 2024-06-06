@@ -1,10 +1,11 @@
 import 'package:cat_explorer/features/cats/cats.dart';
+import 'package:equatable/equatable.dart';
 import 'package:json_annotation/json_annotation.dart';
 
 part 'breed_model.g.dart';
 
 @JsonSerializable()
-class BreedModel {
+class BreedModel extends Equatable {
   const BreedModel({
     this.weight,
     this.id,
@@ -88,4 +89,46 @@ class BreedModel {
   factory BreedModel.fromJson(Map json) => _$BreedModelFromJson(json);
 
   Map<String, dynamic> toJson() => _$BreedModelToJson(this);
+
+  @override
+  List<Object?> get props => [
+        weight,
+        id,
+        name,
+        cfaUrl,
+        vetstreetUrl,
+        vcahospitalsUrl,
+        temperament,
+        origin,
+        countryCodes,
+        countryCode,
+        description,
+        lifeSpan,
+        indoor,
+        lap,
+        altNames,
+        adaptability,
+        affectionLevel,
+        childFriendly,
+        dogFriendly,
+        energyLevel,
+        grooming,
+        healthIssues,
+        intelligence,
+        sheddingLevel,
+        socialNeeds,
+        strangerFriendly,
+        vocalisation,
+        experimental,
+        hairless,
+        natural,
+        rare,
+        rex,
+        suppressedTail,
+        shortLegs,
+        wikipediaUrl,
+        hypoallergenic,
+        referenceImageId,
+        image,
+      ];
 }

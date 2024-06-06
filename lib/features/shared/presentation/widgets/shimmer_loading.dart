@@ -1,3 +1,4 @@
+import 'package:cat_explorer/injection/injection_container.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 
@@ -141,6 +142,10 @@ class _ShimmerLoadingState extends State<ShimmerLoading> {
 
   @override
   Widget build(BuildContext context) {
+    if (sl.isTestMode) {
+      return widget.child;
+    }
+
     // Collect ancestor shimmer info.
     final shimmer = Shimmer.of(context);
     if (shimmer == null) return widget.child;

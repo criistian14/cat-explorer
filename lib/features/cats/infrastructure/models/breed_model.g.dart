@@ -9,8 +9,7 @@ part of 'breed_model.dart';
 BreedModel _$BreedModelFromJson(Map json) => BreedModel(
       weight: json['weight'] == null
           ? null
-          : WeightModel.fromJson(
-              Map<String, dynamic>.from(json['weight'] as Map)),
+          : WeightModel.fromJson(json['weight'] as Map),
       id: json['id'] as String?,
       name: json['name'] as String?,
       cfaUrl: json['cfa_url'] as String?,

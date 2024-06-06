@@ -1,8 +1,6 @@
 import 'dart:ui';
 
 import 'package:animations/animations.dart';
-import 'package:cached_network_image/cached_network_image.dart';
-import 'package:cat_explorer/config/app_assets.dart';
 import 'package:cat_explorer/features/cats/cats.dart';
 import 'package:cat_explorer/features/shared/shared.dart';
 import 'package:cat_explorer/l10n/l10n.dart';
@@ -52,14 +50,9 @@ class BreedCard extends StatelessWidget {
                       borderRadius: BorderRadius.circular(10),
                       child: Hero(
                         tag: 'image-$key',
-                        child: CachedNetworkImage(
+                        child: ImageNetwork(
                           imageUrl: breed?.image?.url ??
                               'https://cdn2.thecatapi.com/images/0XYvRd7oD.jpg',
-                          errorWidget: (context, url, error) => Image.asset(
-                            AppAssets.imageErrorCat,
-                            fit: BoxFit.cover,
-                          ),
-                          fit: BoxFit.cover,
                           height: 23.h(context),
                         ),
                       ),

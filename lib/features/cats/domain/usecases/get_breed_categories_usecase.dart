@@ -3,11 +3,11 @@ import 'package:cat_explorer/config/types/typedef.dart';
 import 'package:cat_explorer/config/usecase.dart';
 import 'package:cat_explorer/features/cats/cats.dart';
 
-class GetBreedCategoriesUseCase extends UseCase<List<Category>, List<Breed>> {
+class GetBreedCategoriesUseCase extends UseCase<List<Category>, NoParams> {
   const GetBreedCategoriesUseCase();
 
   @override
-  ResultFuture<List<Category>> call(List<Breed> params) async {
+  ResultFuture<List<Category>> call(NoParams params) async {
     final categories = <Category>[
       Category(
         name: 'most_energetic',

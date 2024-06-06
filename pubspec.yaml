@@ -76,3 +76,10 @@ flutter_native_splash:
 
   android_12:
     image: 'assets/images/cat_splash_screen.png'
+
+
+patrol:
+  app_name: Cat Explorer
+  flavor: development
+  android:
+    package_name: com.christian.cat_explorer

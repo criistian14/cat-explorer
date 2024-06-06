@@ -1,7 +1,7 @@
 import 'dart:async';
 import 'dart:io';
 
-sealed class NetworkInfo {
+abstract class NetworkInfo {
   /// Get the value if connected to the internet
   Future<bool> get isConnected;
 

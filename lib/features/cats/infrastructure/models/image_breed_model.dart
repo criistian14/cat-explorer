@@ -1,9 +1,10 @@
+import 'package:equatable/equatable.dart';
 import 'package:json_annotation/json_annotation.dart';
 
 part 'image_breed_model.g.dart';
 
 @JsonSerializable()
-class ImageBreedModel {
+class ImageBreedModel extends Equatable {
   const ImageBreedModel({
     this.id,
     this.width,
@@ -19,4 +20,12 @@ class ImageBreedModel {
   factory ImageBreedModel.fromJson(Map json) => _$ImageBreedModelFromJson(json);
 
   Map<String, dynamic> toJson() => _$ImageBreedModelToJson(this);
+
+  @override
+  List<Object?> get props => [
+        id,
+        width,
+        height,
+        url,
+      ];
 }
