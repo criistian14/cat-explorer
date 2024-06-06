@@ -12,11 +12,13 @@ A Very Good Project created by Very Good CLI.
 
 Bienvenido a **Cat Explorer**, una aplicación de Flutter que consulta datos sobre gatos usando TheCatAPI.
 
+Si deseas puedes descargar la version que quieras desde el apartado de [releases](https://github.com/criistian14/cat-explorer/releases), pronto en Google Play.
+
 ### Diseño
 
 El diseño de la aplicación está inspirado en [Cat Shop Mobile App][design_link] de Dribbble.
 
-![presentation]
+![presentation][presentation]
 
 ---
 
@@ -105,4 +107,4 @@ Este proyecto utiliza tres flavors diferentes para distintas etapas del desarrol
 [very_good_analysis_link]: https://pub.dev/packages/very_good_analysis
 [very_good_cli_link]: https://github.com/VeryGoodOpenSource/very_good_cli
 [design_link]: https://dribbble.com/shots/24105513-Cat-Shop-Mobile-App
-[presentation]: https://github.com/criistian14/cat-explorer/blob/main/screenshots/preview/android-presentation.png
+[presentation]: https://github.com/criistian14/cat-explorer/blob/main/screenshots/android-presentation.png
