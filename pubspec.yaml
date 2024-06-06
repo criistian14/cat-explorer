@@ -10,13 +10,15 @@ dependencies:
   animations: ^2.0.11
   bloc: ^8.1.3
   cached_network_image: ^3.3.1
+  collection: ^1.18.0
+  cupertino_icons: ^1.0.8
   dio: ^5.4.3+1
   equatable: ^2.0.5
   flutter:
     sdk: flutter
   flutter_animate: ^4.5.0
   flutter_bloc: ^8.1.4
-  flutter_gen: ^5.5.0+1
+  flutter_dotenv: ^5.1.0
   flutter_localizations:
     sdk: flutter
   freezed_annotation: ^2.4.1
@@ -24,7 +26,8 @@ dependencies:
   go_router: ^14.1.4
   intl: ^0.18.1
   json_annotation: ^4.9.0
-  multiple_result: ^5.1.0
+  rive: ^0.13.5
+  url_launcher: ^6.3.0
 
 dev_dependencies:
   bloc_test: ^9.1.6
@@ -41,6 +44,12 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+  generate: true
+
+  assets:
+    - .env
+    - assets/animations/
+    - assets/images/
 
   fonts:
     - family: Poppins
@@ -67,3 +76,10 @@ flutter_native_splash:
 
   android_12:
     image: 'assets/images/cat_splash_screen.png'
+
+
+patrol:
+  app_name: Cat Explorer
+  flavor: development
+  android:
+    package_name: com.christian.cat_explorer

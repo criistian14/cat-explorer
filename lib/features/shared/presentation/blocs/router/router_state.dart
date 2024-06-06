@@ -21,23 +21,5 @@ final _appRoutes = GoRouter(
         );
       },
     ),
-    GoRoute(
-      path: CounterPage.routeName,
-      name: CounterPage.routeName,
-      pageBuilder: (context, state) {
-        return CustomTransitionPage(
-          key: state.pageKey,
-          child: const CounterPage(),
-          transitionsBuilder: (context, animation, secondaryAnimation, child) {
-            return SharedAxisTransition(
-              animation: animation,
-              secondaryAnimation: secondaryAnimation,
-              transitionType: SharedAxisTransitionType.horizontal,
-              child: child,
-            );
-          },
-        );
-      },
-    ),
   ],
 );

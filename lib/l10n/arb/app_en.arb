@@ -1,7 +1,53 @@
 {
-    "@@locale": "en",
-    "counterAppBarTitle": "Counter Christian",
-    "@counterAppBarTitle": {
-        "description": "Text shown in the AppBar of the Counter Page"
+  "@@locale": "en",
+  "title_cats": "Find Your Ideal Cat Breed",
+  "search_hint_cats": "What cat breed are you looking for?",
+  "search_label_cats": "Persian, Siamese, Bengal...",
+  "explore_cat_categories": "Explore Different Cat Categories",
+  "cat_breed_list": "List of Cat Breeds",
+  "view_all": "View All",
+  "close": "Close",
+  "error_title_default": "Sorry",
+  "error_code": "Error code: {code}",
+  "@error_code": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
     }
+  },
+  "accept": "Accept",
+  "cancel": "Cancel",
+  "no_internet": "No internet connection",
+  "timeout": "Request timed out",
+  "response_format_error": "Error formatting response",
+  "endpoint_error": "Server error",
+  "url_open_error": "Could not open URL",
+  "retry_button": "Try Again",
+  "description_failure": "It looks like something isn't right. Don't worry, we're checking it out",
+  "null_response_from_server": "The server response is empty. \nPlease try again later.",
+  "most_energetic": "Most Energetic",
+  "highly_intelligent": "Highly Intelligent",
+  "social": "Social",
+  "long_lifespan": "Long Lifespan",
+  "dog_friendly": "Dog Friendly",
+  "kid_friendly": "Kid Friendly",
+  "very_intelligent": "Very Intelligent",
+  "intelligent": "Intelligent",
+  "average_intelligence": "Average Intelligence",
+  "no_information": "No information",
+  "description": "Description",
+  "lifespan_years": "Lifespan {range} years",
+  "@lifespan_years": {
+    "placeholders": {
+      "range": {
+        "type": "String"
+      }
+    }
+  },
+  "intelligence_level": "Intelligence Level",
+  "adaptability": "Adaptability",
+  "temperament": "Temperament",
+  "more_information": "More Information",
+  "no_matching_data": "No data matching your search was found"
 }

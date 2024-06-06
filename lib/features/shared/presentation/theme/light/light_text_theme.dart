@@ -3,24 +3,26 @@ part of 'light_theme.dart';
 const _fontFamily = 'Poppins';
 const _defaultColor = Color(0xFF2F4F4F);
 
-TextTheme lightTextTheme = const TextTheme(
+TextTheme _lightTextTheme = const TextTheme(
   displayLarge: TextStyle(
     fontSize: 28,
     fontFamily: _fontFamily,
     fontWeight: FontWeight.w600,
-    height: 1.2,
+    height: 1.5,
     color: _defaultColor,
   ),
   displayMedium: TextStyle(
     fontSize: 24,
     fontFamily: _fontFamily,
     fontWeight: FontWeight.w600,
+    height: 1.5,
     color: _defaultColor,
   ),
   displaySmall: TextStyle(
     fontSize: 20,
     fontFamily: _fontFamily,
     fontWeight: FontWeight.w600,
+    height: 1.5,
     color: _defaultColor,
   ),
   headlineLarge: TextStyle(

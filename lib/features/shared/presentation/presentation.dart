@@ -1,4 +1,6 @@
 export 'blocs/router/router_cubit.dart';
 export 'pages/app.dart';
-export 'pages/home_page.dart';
 export 'theme/theme.dart';
+export 'widgets/error_info.dart';
+export 'widgets/image_network.dart';
+export 'widgets/shimmer_loading.dart';

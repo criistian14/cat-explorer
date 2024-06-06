@@ -16,11 +16,13 @@ Bienvenido a **Cat Explorer**, una aplicación de Flutter que consulta datos sob
 
 El diseño de la aplicación está inspirado en [Cat Shop Mobile App][design_link] de Dribbble.
 
+![presentation]
+
 ---
 
 ## Funcionalidades
 
-- **Consulta de datos de gatos**: Utiliza TheCatAPI para obtener información sobre diferentes razas de gatos, imágenes y más.
+- **Consulta la raze de los gatos**: Utiliza TheCatAPI para obtener información sobre diferentes razas de gatos, imágenes y más.
 - **Interfaz amigable**: Un diseño limpio y moderno que facilita la navegación y la visualización de la información.
 - **Gestión de estado**: Implementación de Flutter Bloc para un manejo eficiente del estado de la aplicación.
 - **Automatización con GitHub Actions**: Validación de pruebas unitarias, análisis de código y creación de releases utilizando GitHub Actions para garantizar la calidad del código y la integración continua.
@@ -39,10 +41,9 @@ Esta aplicación utiliza una variedad de librerías para mejorar su funcionalida
 - **dio**: Una potente librería de HTTP cliente para Dart, utilizada para realizar solicitudes a TheCatAPI.
 - **equatable**: Facilita las comparaciones de objetos, comúnmente utilizado con el patrón BLoC.
 - **flutter_animate**: Permite agregar animaciones fáciles y potentes a los widgets.
-- **flutter_gen**: Genera código Dart para recursos estáticos como imágenes, fuentes y traducciones.
+- **flutter_dotenv**: Permite cargar variables de entorno.
 - **get_it**: Un contenedor de dependencias simple para la inyección de dependencias.
 - **go_router**: Una solución de enrutamiento flexible y potente para Flutter.
-- **multiple_result**: Maneja resultados múltiples de operaciones, como éxito o error.
 
 ### Dependencias de Desarrollo
 
@@ -62,9 +63,11 @@ Esta aplicación utiliza una variedad de librerías para mejorar su funcionalida
 
 Este proyecto utiliza tres flavors diferentes para distintas etapas del desarrollo y despliegue:
 
-development: Para el desarrollo local y pruebas iniciales.
-staging: Para pruebas de integración y validación antes del despliegue final.
-production: Para la versión final que se despliega a los usuarios finales.
+**development**: Para el desarrollo local y pruebas iniciales.
+
+**staging**: Para pruebas de integración y validación antes del despliegue final.
+
+**production**: Para la versión final que se despliega a los usuarios finales.
 
 ---
 
@@ -102,4 +105,4 @@ production: Para la versión final que se despliega a los usuarios finales.
 [very_good_analysis_link]: https://pub.dev/packages/very_good_analysis
 [very_good_cli_link]: https://github.com/VeryGoodOpenSource/very_good_cli
 [design_link]: https://dribbble.com/shots/24105513-Cat-Shop-Mobile-App
-
+[presentation]: https://github.com/criistian14/cat-explorer/blob/main/screenshots/preview/android-presentation.png

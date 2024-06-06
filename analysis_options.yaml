@@ -1,9 +1,18 @@
 include: package:very_good_analysis/analysis_options.5.1.0.yaml
 
 analyzer:
-  exclude: [lib/l10n/**]
+  exclude: [
+    lib/l10n/**,
+    lib/features/**_model.dart,
+    lib/**.g.dart,
+    lib/**.freezed.dart,
+  ]
 
 linter:
   rules:
     public_member_api_docs: false
     lines_longer_than_80_chars: false
+    omit_local_variable_types: false
+    one_member_abstracts: false
+    always_put_required_named_parameters_first: false
+    use_build_context_synchronously: false

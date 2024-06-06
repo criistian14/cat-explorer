@@ -1,7 +1,53 @@
 {
-    "@@locale": "es",
-    "counterAppBarTitle": "Contador Christian",
-    "@counterAppBarTitle": {
-        "description": "Texto mostrado en la AppBar de la página del contador"
+  "@@locale": "es",
+  "title_cats": "Encuentra la raza de tu gato ideal",
+  "search_hint_cats": "¿Qué raza de gato buscas?",
+  "search_label_cats": "Persa, Siamés, Bengala...",
+  "explore_cat_categories": "Explora las diferentes categorías de gatos",
+  "cat_breed_list": "Lista de razas de gatos",
+  "view_all": "Ver todos",
+  "close": "Cerrar",
+  "error_title_default": "Lo sentimos",
+  "error_code": "Código de error: {code}",
+  "@error_code": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
     }
+  },
+  "accept": "Aceptar",
+  "cancel": "Cancelar",
+  "no_internet": "Sin conexión a internet",
+  "timeout": "Tiempo de espera agotado",
+  "response_format_error": "Error al formatear la respuesta",
+  "endpoint_error": "Error del servidor",
+  "url_open_error": "No se pudo abrir la URL",
+  "retry_button": "Volver a intentarlo",
+  "description_failure": "Parece que algo no está bien. No te preocupes, lo estamos revisando",
+  "null_response_from_server": "La respuesta del servidor está vacía. \nPor favor, inténtalo de nuevo más tarde.",
+  "most_energetic": "Más Energéticos",
+  "highly_intelligent": "Altamente Inteligentes",
+  "social": "Sociales",
+  "long_lifespan": "Larga Esperanza de Vida",
+  "dog_friendly": "Compatibles con Perros",
+  "kid_friendly": "Amigables con Niños",
+  "very_intelligent": "Muy inteligente",
+  "intelligent": "Inteligente",
+  "average_intelligence": "Inteligencia promedio",
+  "no_information": "Sin información",
+  "description": "Descripción",
+  "lifespan_years": "Tiempo de vida {range} años",
+  "@lifespan_years": {
+    "placeholders": {
+      "range": {
+        "type": "String"
+      }
+    }
+  },
+  "intelligence_level": "Nivel de inteligencia",
+  "adaptability": "Adaptabilidad",
+  "temperament": "Carácter",
+  "more_information": "Más información",
+  "no_matching_data": "No se encontraron datos que coincidan con tu búsqueda"
 }
